@@ -1,0 +1,22 @@
+{
+  "name": "c_chat",
+  "version": "1.0.0",
+  "description": "A real-time chat application using Node.js",
+  "main": "server/server.js",
+  "scripts": {
+    "start-server": "node server/server.js",
+    "start-client": "node client/client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "nodejs",
+    "real-time",
+    "socket"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
